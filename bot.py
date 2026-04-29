@@ -33,10 +33,10 @@ INTERVIEW_QUESTIONS = [
     "What are your strengths and weaknesses?",
     "How do you spend your spare time and weekends?",
     "Who is your role model and why?",
-    "Why do you want to join the Armed Forces instead of a corporate job?",
+    "Why do you want to join this profession?",
     "Tell me about a time you faced a major failure and how you overcame it.",
     "How do you handle disagreements with your friends or colleagues?",
-    "What are your future plans if you are not recommended this time?",
+    "What are your future plans if you are not selected this time?",
     "Tell me about your daily routine.",
     "Describe a situation where you showed leadership qualities."
 ]
