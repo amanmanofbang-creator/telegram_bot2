@@ -64,7 +64,7 @@ def send_welcome(message):
     
     bot.send_message(
         message.chat.id, 
-        "Welcome to the SSB Preparation Bot.\n\nSelect a test from the menu below to begin your practice.", 
+        "Welcome to the Interview Preparation Bot.\n\nSelect a test from the menu below to begin your practice.", 
         reply_markup=markup
     )
 
