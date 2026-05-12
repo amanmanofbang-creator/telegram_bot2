@@ -61,12 +61,19 @@ def send_welcome(message):
     btn_int = InlineKeyboardButton("Interview Questions", callback_data="btn_int")
     
     markup.add(btn_wat, btn_srt, btn_sd, btn_int)
-    
+
     bot.send_message(
         message.chat.id, 
-        "Welcome to the Interview Preparation Bot.\n\nSelect a test from the menu below to begin your practice.", 
-        reply_markup=markup
+        "Welcome to the Interview Preparation Bot.\n\nNow you can prepare for your SSB interview and written exams like NDA, CDS, and AFCAT for free. To get a free, detailed assessment of all SSB interview-related tests, download the 'AI SSB' app.\n\nTo download the app, either search 'AI SSB' on the Google Play Store or click this link: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349\n\nSelect a test from the menu below.", 
+        reply_markup=markup,
+        disable_web_page_preview=True 
     )
+    
+    # bot.send_message(
+    #     message.chat.id, 
+    #     "Welcome to the Interview Preparation Bot.\n\nSelect a test from the menu below to begin your practice.", 
+    #     reply_markup=markup
+    # )
 
 # --- Step 2: Handle Button Clicks ---
 @bot.callback_query_handler(func=lambda call: True)
