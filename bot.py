@@ -93,8 +93,13 @@ def handle_query(call):
 def handle_text(message):
     bot.send_message(
         message.chat.id,
-        "Response recorded.\n\nTo practice another question, tap /start to open the main menu again."
+        "To get a free detailed assessment, download the 'AI SSB' app from the Google Play Store. You can also prepare for free for the SSB interview and written exams like NDA, CDS, and AFCAT.\n\nLink to the app: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349",
+        disable_web_page_preview=True # Prevents a massive Play Store card from clogging the chat
     )
+    # bot.send_message(
+    #     message.chat.id,
+    #     "Response recorded.\n\nTo practice another question, tap /start to open the main menu again."
+    # )
 
 # --- Dummy Web Server for Render Hosting ---
 class DummyHandler(BaseHTTPRequestHandler):
