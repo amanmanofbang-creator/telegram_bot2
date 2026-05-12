@@ -93,7 +93,7 @@ def handle_query(call):
 def handle_text(message):
     bot.send_message(
         message.chat.id,
-        "To get a free detailed assessment, download the 'AI SSB' app from the Google Play Store. Join over 1,000 aspirants already preparing for free for the SSB interview and written exams like NDA, CDS, and AFCAT!\n\nSearch 'AI SSB' on the Google Play Store or click this direct link: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349",
+        "To get a free detailed assessment, download the 'AI SSB' app from the Google Play Store. Join over 8,000 aspirants already preparing for free for the SSB interview and written exams like NDA, CDS, and AFCAT!\n\nSearch 'AI SSB' on the Google Play Store or click this direct link: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349",
         disable_web_page_preview=True 
     )
     # bot.send_message(
