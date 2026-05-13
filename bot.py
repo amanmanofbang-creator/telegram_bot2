@@ -75,7 +75,7 @@ def send_welcome(message):
     
     bot.send_message(
         message.chat.id, 
-        "Welcome to the Interview and Written Exam Preparation Bot.\n\nSelect a category below to begin your practice.", 
+        "Welcome to NDA, CDS, AFCAT and SSB preparation Preparation Bot.\n\nSelect a category below to begin your practice.", 
         reply_markup=markup
     )
 
