@@ -77,7 +77,7 @@ def send_welcome(message):
         "Welcome to the NDA, CDS, AFCAT, and SSB Preparation Bot.\n\n"
         "To get detailed assessments related to your SSB interview and comprehensive study "
         "notes for the NDA, CDS, and AFCAT written exams, download the 'AI SSB' app from the Google Play Store.\n\n"
-        "To get this app either search 'AI SSB' on google play store or click here to download: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349&hl=en_IN\n\n"
+        "To get this app either search 'AI SSB' on google play store or click here to download from google play store: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349&hl=en_IN\n\n"
         "Select a category below to begin your practice."
     )
     
@@ -116,7 +116,7 @@ def handle_text(message):
         "Response recorded.\n\n"
         "To get detailed assessments of this response and comprehensive study "
         "notes for the SSB, NDA, CDS, and AFCAT written exams, download the 'AI SSB' app from the Google Play Store.\n\n"
-        "To get this app either search 'AI SSB' on google play store or click here to download: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349&hl=en_IN\n\n"
+        "To get this app either search 'AI SSB' on google play store or click here to download from google play store: https://play.google.com/store/apps/details?id=com.newpromax.bookandpen29349&hl=en_IN\n\n"
         "To practice another question, tap /start to open the main menu again."
     )
     
